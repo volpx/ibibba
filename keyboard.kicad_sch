@@ -6644,6 +6644,12 @@
 		(uuid "122d0690-346f-4911-a13f-1717c8aa6b16")
 	)
 	(junction
+		(at 180.34 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12b7105b-bdd9-4578-af0b-860ed79ea5cb")
+	)
+	(junction
 		(at 191.77 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6684,6 +6690,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19cd8e8f-7d2d-4786-98aa-8de7c75ba119")
+	)
+	(junction
+		(at 180.34 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a40a12e-9e22-40bd-883c-3c98049ef67e")
 	)
 	(junction
 		(at 210.82 267.97)
@@ -8048,6 +8060,12 @@
 		(uuid "d9357b5c-e866-4f7c-8466-1cb874f77441")
 	)
 	(junction
+		(at 190.5 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d93ce3cc-7313-404d-8a15-1dd6f4496e4a")
+	)
+	(junction
 		(at 44.45 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8479,6 +8497,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 33.02) (xy 180.34 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066a5d2a-1bea-4560-b472-d71949848898")
+	)
+	(wire
+		(pts
 			(xy 90.17 138.43) (xy 102.87 138.43)
 		)
 		(stroke
@@ -8689,6 +8717,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 49.53) (xy 190.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9bd2af-357d-4423-a4c1-9d1b71a8a4a0")
+	)
+	(wire
+		(pts
 			(xy 58.42 262.89) (xy 73.66 262.89)
 		)
 		(stroke
@@ -8716,6 +8754,16 @@
 			(type default)
 		)
 		(uuid "1264ccee-4cfa-4896-89a3-8be3cf384569")
+	)
+	(wire
+		(pts
+			(xy 195.58 24.13) (xy 204.47 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e119a4-2fd3-41b6-b1f9-3ed7df989751")
 	)
 	(wire
 		(pts
@@ -9429,6 +9477,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 34.29) (xy 190.5 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b6490b5-8d58-471d-a45b-d323e6e5602f")
+	)
+	(wire
+		(pts
 			(xy 176.53 95.25) (xy 176.53 113.03)
 		)
 		(stroke
@@ -10066,6 +10124,16 @@
 			(type default)
 		)
 		(uuid "570025a5-4b2d-474b-abab-3e3df26e3a66")
+	)
+	(wire
+		(pts
+			(xy 185.42 24.13) (xy 180.34 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584e9715-a5d2-494e-80fa-9b9560ce5845")
 	)
 	(wire
 		(pts
@@ -10916,6 +10984,16 @@
 			(type default)
 		)
 		(uuid "82516c2a-dedc-46e0-b445-c4259106e943")
+	)
+	(wire
+		(pts
+			(xy 190.5 33.02) (xy 189.23 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82781ecc-20a2-46aa-90f7-1be3d596aa52")
 	)
 	(wire
 		(pts
@@ -13099,6 +13177,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 31.75) (xy 190.5 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54d5b3c-9543-4715-939d-9bcc0a36f124")
+	)
+	(wire
+		(pts
 			(xy 391.16 58.42) (xy 379.73 58.42)
 		)
 		(stroke
@@ -13355,6 +13443,17 @@
 		)
 		(uuid "0618448a-85b7-452c-9c19-70b13e496f0a")
 	)
+	(label "VCC_LED"
+		(at 13.97 267.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "078a4621-6c43-45f7-8479-d4e15daad2e8")
+	)
 	(label "SW60"
 		(at 318.77 226.06 0)
 		(fields_autoplaced yes)
@@ -13409,17 +13508,6 @@
 			(justify right bottom)
 		)
 		(uuid "1a42c8fd-f0cf-4982-8ae2-b7619880eb88")
-	)
-	(label "VCC"
-		(at 13.97 227.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b23ebf4-b0e4-46e4-a925-cd35d65e106c")
 	)
 	(label "D1-"
 		(at 49.53 34.29 180)
@@ -13597,7 +13685,7 @@
 		)
 		(uuid "3919097c-aa81-49f1-bd63-acb4eb28ea14")
 	)
-	(label "COL14"
+	(label "COL13"
 		(at 293.37 237.49 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13640,6 +13728,17 @@
 			(justify right bottom)
 		)
 		(uuid "411c65c9-eba8-4818-8ef5-32344f1ff9b7")
+	)
+	(label "VCC_LED"
+		(at 13.97 227.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42175274-a12e-4606-8b93-e8feaa5f8635")
 	)
 	(label "ROW1"
 		(at 394.97 80.01 180)
@@ -13718,6 +13817,17 @@
 		)
 		(uuid "4967c513-8602-4704-8eb4-bc3d8e9471ca")
 	)
+	(label "LED_EN"
+		(at 394.97 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49f004e7-d1d7-49ee-b51a-6220a59a9f22")
+	)
 	(label "COL0"
 		(at 394.97 90.17 180)
 		(fields_autoplaced yes)
@@ -13763,7 +13873,7 @@
 		(uuid "5128a4b4-12e2-4c19-b57f-26b9ea26cb0e")
 	)
 	(label "VCC"
-		(at 180.34 24.13 180)
+		(at 176.53 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13828,18 +13938,7 @@
 		)
 		(uuid "567c791f-182d-4a3f-8feb-f561c0579a74")
 	)
-	(label "VCC"
-		(at 13.97 267.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57a79c82-515d-489f-bbc8-4e3d5f22a552")
-	)
-	(label "COL12"
+	(label "COL11"
 		(at 341.63 247.65 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13850,16 +13949,16 @@
 		)
 		(uuid "57cbd553-cdb1-4de5-9a89-98ba522173f9")
 	)
-	(label "VCC"
-		(at 13.97 207.01 0)
+	(label "VCC_LED"
+		(at 204.47 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "5c8b0514-58e1-4a48-a94e-06d253da88c3")
+		(uuid "581d31de-0647-4d1b-9a7b-e07d629a040e")
 	)
 	(label "COL5"
 		(at 365.76 237.49 180)
@@ -14037,17 +14136,6 @@
 		)
 		(uuid "7aaeb526-6e2f-4ea3-be8f-7ce56878e4db")
 	)
-	(label "VCC"
-		(at 13.97 247.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b4ae3e3-0ae7-4e82-bbba-a96b224c6c74")
-	)
 	(label "ROW2"
 		(at 394.97 82.55 180)
 		(fields_autoplaced yes)
@@ -14103,7 +14191,7 @@
 		)
 		(uuid "8bd9a417-0f27-4d09-a825-3b6bdf1b7a6b")
 	)
-	(label "COL14"
+	(label "COL13"
 		(at 317.5 247.65 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14113,6 +14201,17 @@
 			(justify right bottom)
 		)
 		(uuid "8bffa6e1-500f-4391-ab7c-8748d24002cb")
+	)
+	(label "VCC_LED"
+		(at 13.97 247.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e38be7a-d930-4568-ab04-06900940a677")
 	)
 	(label "COL4"
 		(at 341.63 237.49 180)
@@ -14168,6 +14267,17 @@
 			(justify left bottom)
 		)
 		(uuid "9a8f519a-ad2d-403b-8624-2afb01e072b9")
+	)
+	(label "VCC_LED"
+		(at 13.97 207.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c912b94-3869-4aec-a7cf-bdd012c2cb9b")
 	)
 	(label "SW43"
 		(at 294.64 237.49 0)
@@ -14323,6 +14433,17 @@
 		)
 		(uuid "b6ddc486-13b1-4286-be79-ff00176f3c53")
 	)
+	(label "VCC_LED"
+		(at 13.97 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8f400ce-6b54-47b6-9707-04a8d1c8fcb3")
+	)
 	(label "COL0"
 		(at 400.05 245.11 180)
 		(fields_autoplaced yes)
@@ -14411,7 +14532,7 @@
 		)
 		(uuid "cbd87734-f82d-4647-a74c-1c5fb678b60a")
 	)
-	(label "COL14"
+	(label "COL13"
 		(at 317.5 237.49 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14432,6 +14553,17 @@
 			(justify right bottom)
 		)
 		(uuid "d62cf051-867e-4da8-b6f2-3752999534f4")
+	)
+	(label "LED_EN"
+		(at 190.5 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dad63fbe-ddf2-4693-964f-f0ad16c51b0b")
 	)
 	(label "SW28"
 		(at 220.98 109.22 180)
@@ -14465,17 +14597,6 @@
 			(justify left bottom)
 		)
 		(uuid "e3d6bb48-4a06-430a-add3-c1b3b70d6136")
-	)
-	(label "VCC"
-		(at 13.97 186.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4e9a7a3-cbea-4ee0-8390-90675509b6a6")
 	)
 	(label "SW45"
 		(at 318.77 215.9 0)
@@ -22931,6 +23052,73 @@
 			(project "keyboard"
 				(path "/036bed95-285c-41d7-ae9e-209431e9628a"
 					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 185.42 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "520068ae-7612-4712-8db2-606880018e61")
+		(property "Reference" "R11"
+			(at 185.42 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 185.42 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 185.42 31.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75e91358-af6d-42a5-8109-d69a2f7dc341")
+		)
+		(pin "2"
+			(uuid "8edeb8de-31b5-438b-a0ff-63105aebc5c2")
+		)
+		(instances
+			(project "keyboard"
+				(path "/036bed95-285c-41d7-ae9e-209431e9628a"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -34654,6 +34842,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 190.5 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbbc34fe-4700-4390-88fa-04227e69d067")
+		(property "Reference" "R12"
+			(at 187.96 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 190.5 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 188.722 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af2bd71b-0c8c-4be1-87ec-d3bc82f203c3")
+		)
+		(pin "2"
+			(uuid "500c13eb-2b96-47ec-8290-fdbdb294b30a")
+		)
+		(instances
+			(project "keyboard"
+				(path "/036bed95-285c-41d7-ae9e-209431e9628a"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:SK6805")
 		(at 210.82 275.59 0)
 		(unit 1)
@@ -35564,6 +35819,77 @@
 			(project "keyboard"
 				(path "/036bed95-285c-41d7-ae9e-209431e9628a"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_PMOS_GSD")
+		(at 190.5 26.67 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7595d1a-423f-4fd0-a615-7990ddba23bb")
+		(property "Reference" "Q1"
+			(at 190.5 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Q_PMOS_GSD"
+			(at 190.5 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 193.04 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
+			(at 190.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eeb09990-6873-46e1-8e2c-7e22e33844d4")
+		)
+		(pin "1"
+			(uuid "22323810-5bf2-49ca-bda5-c45e0b03dd19")
+		)
+		(pin "3"
+			(uuid "a9cebed6-8f5d-4f24-b8ec-527fce459b1e")
+		)
+		(instances
+			(project "keyboard"
+				(path "/036bed95-285c-41d7-ae9e-209431e9628a"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
