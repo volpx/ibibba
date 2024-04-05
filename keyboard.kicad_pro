@@ -518,8 +518,14 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/D1+": "USB",
+      "/D1-": "USB",
+      "/D2+": "USB",
+      "/D2-": "USB",
       "/D3+": "USB",
       "/D3-": "USB",
+      "Net-(AE0-A)": "RF",
+      "Net-(C5-Pad1)": "RF",
       "Net-(U0-ANT)": "RF"
     },
     "netclass_patterns": []
