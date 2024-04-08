@@ -5357,6 +5357,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Power_Protection:USBLC6-2P6"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -15132,7 +15214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 133.35 107.95 0)
 			(effects
 				(font
@@ -15473,7 +15555,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "05a46c8a-b712-4224-bfe5-c6b111e9eaea")
 		(property "Reference" "SW84"
@@ -15492,7 +15574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 330.2 220.98 0)
 			(effects
 				(font
@@ -15629,7 +15711,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "05c744f2-50de-4d4a-a605-7832e675e3c5")
 		(property "Reference" "SW78"
@@ -15648,7 +15730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 355.6 232.41 0)
 			(effects
 				(font
@@ -15716,7 +15798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 171.45 125.73 0)
 			(effects
 				(font
@@ -15924,7 +16006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 69.85 162.56 0)
 			(effects
 				(font
@@ -16042,7 +16124,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "08efd235-f8ab-4335-a7b3-7c1e3f607d77")
 		(property "Reference" "SW64"
@@ -16061,7 +16143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 82.55 162.56 0)
 			(effects
 				(font
@@ -16520,7 +16602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 120.65 90.17 0)
 			(effects
 				(font
@@ -17230,7 +17312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 158.75 90.17 0)
 			(effects
 				(font
@@ -17697,7 +17779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 158.75 107.95 0)
 			(effects
 				(font
@@ -17834,7 +17916,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1c511f07-a0ea-4071-ab40-d162478af95a")
 		(property "Reference" "SW43"
@@ -17853,7 +17935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 196.85 125.73 0)
 			(effects
 				(font
@@ -18662,7 +18744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 184.15 143.51 0)
 			(effects
 				(font
@@ -18711,7 +18793,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "29abd33d-6460-40fa-b6a5-1e392d84fda0")
 		(property "Reference" "SW28"
@@ -18730,7 +18812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 196.85 107.95 0)
 			(effects
 				(font
@@ -18862,7 +18944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 355.6 242.57 0)
 			(effects
 				(font
@@ -19488,7 +19570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 120.65 143.51 0)
 			(effects
 				(font
@@ -19866,7 +19948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 107.95 90.17 0)
 			(effects
 				(font
@@ -20273,7 +20355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 146.05 143.51 0)
 			(effects
 				(font
@@ -20341,7 +20423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 171.45 107.95 0)
 			(effects
 				(font
@@ -20390,7 +20472,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3aaf44cf-7c87-416b-b0e9-512b956cdfae")
 		(property "Reference" "SW13"
@@ -20409,7 +20491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 196.85 90.17 0)
 			(effects
 				(font
@@ -20696,7 +20778,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3cb1e8cd-95ba-4629-8580-4bed970024b6")
 		(property "Reference" "SW16"
@@ -20715,7 +20797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 44.45 107.95 0)
 			(effects
 				(font
@@ -20783,7 +20865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 331.47 232.41 0)
 			(effects
 				(font
@@ -21554,7 +21636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 120.65 125.73 0)
 			(effects
 				(font
@@ -21930,7 +22012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 158.75 162.56 0)
 			(effects
 				(font
@@ -21998,7 +22080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 146.05 125.73 0)
 			(effects
 				(font
@@ -22389,7 +22471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 184.15 125.73 0)
 			(effects
 				(font
@@ -22830,7 +22912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 57.15 90.17 0)
 			(effects
 				(font
@@ -22973,7 +23055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 95.25 90.17 0)
 			(effects
 				(font
@@ -23171,13 +23253,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 276.86 259.08 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5264c77c-db21-49b0-a0de-b53f51039fc1")
+		(property "Reference" "H5"
+			(at 279.4 257.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 279.4 260.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380"
+			(at 276.86 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 276.86 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keyboard"
+				(path "/036bed95-285c-41d7-ae9e-209431e9628a"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 31.75 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "532f3240-82f5-42c1-b9f0-aa6d00815587")
 		(property "Reference" "SW15"
@@ -23196,7 +23342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 31.75 107.95 0)
 			(effects
 				(font
@@ -23264,7 +23410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 158.75 143.51 0)
 			(effects
 				(font
@@ -23420,7 +23566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 133.35 143.51 0)
 			(effects
 				(font
@@ -23553,7 +23699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 209.55 162.56 0)
 			(effects
 				(font
@@ -23621,7 +23767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 306.07 210.82 0)
 			(effects
 				(font
@@ -24079,7 +24225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 57.15 162.56 0)
 			(effects
 				(font
@@ -24122,6 +24268,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 257.81 279.4 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "583eae63-6684-44bb-a054-fad24af83ce8")
+		(property "Reference" "H4"
+			(at 260.35 278.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 260.35 280.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380"
+			(at 257.81 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 257.81 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keyboard"
+				(path "/036bed95-285c-41d7-ae9e-209431e9628a"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 107.95 113.03 0)
 		(unit 1)
@@ -24147,7 +24357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 107.95 107.95 0)
 			(effects
 				(font
@@ -24215,7 +24425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 82.55 90.17 0)
 			(effects
 				(font
@@ -24581,7 +24791,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5c94b080-fe09-4c02-97ce-0a2a0943e9b2")
 		(property "Reference" "SW66"
@@ -24600,7 +24810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 107.95 162.56 0)
 			(effects
 				(font
@@ -25348,7 +25558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 171.45 90.17 0)
 			(effects
 				(font
@@ -25397,7 +25607,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "63e3ff07-3b7e-4a01-bfe9-733cc7cd952e")
 		(property "Reference" "SW46"
@@ -25416,7 +25626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 44.45 143.51 0)
 			(effects
 				(font
@@ -25484,7 +25694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 57.15 143.51 0)
 			(effects
 				(font
@@ -25521,6 +25731,198 @@
 			(project "keyboard"
 				(path "/036bed95-285c-41d7-ae9e-209431e9628a"
 					(reference "SW47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 276.86 274.32 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64f3775c-42b7-49d9-9097-eef3376a2b09")
+		(property "Reference" "H8"
+			(at 279.4 273.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 279.4 275.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380"
+			(at 276.86 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 276.86 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keyboard"
+				(path "/036bed95-285c-41d7-ae9e-209431e9628a"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 257.81 274.32 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "655a2357-8a31-46cd-aa35-4e0d4067962e")
+		(property "Reference" "H3"
+			(at 260.35 273.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 260.35 275.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380"
+			(at 257.81 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 257.81 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keyboard"
+				(path "/036bed95-285c-41d7-ae9e-209431e9628a"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 257.81 269.24 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "661dce76-a1f3-4181-b344-676bd736e9c4")
+		(property "Reference" "H2"
+			(at 260.35 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 260.35 270.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380"
+			(at 257.81 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 257.81 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keyboard"
+				(path "/036bed95-285c-41d7-ae9e-209431e9628a"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -26121,6 +26523,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 276.86 279.4 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a2e7b14-293f-47e0-bdb1-a5584554bbc6")
+		(property "Reference" "H9"
+			(at 279.4 278.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 279.4 280.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380"
+			(at 276.86 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 276.86 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keyboard"
+				(path "/036bed95-285c-41d7-ae9e-209431e9628a"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 306.07 247.65 0)
 		(unit 1)
@@ -26146,7 +26612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 306.07 242.57 0)
 			(effects
 				(font
@@ -26377,7 +26843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 69.85 125.73 0)
 			(effects
 				(font
@@ -26822,7 +27288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 82.55 107.95 0)
 			(effects
 				(font
@@ -26890,7 +27356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 57.15 107.95 0)
 			(effects
 				(font
@@ -27582,7 +28048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 184.15 107.95 0)
 			(effects
 				(font
@@ -27960,7 +28426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 69.85 143.51 0)
 			(effects
 				(font
@@ -28093,7 +28559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 31.75 162.56 0)
 			(effects
 				(font
@@ -28161,7 +28627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 306.07 232.41 0)
 			(effects
 				(font
@@ -28472,7 +28938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 158.75 125.73 0)
 			(effects
 				(font
@@ -29131,7 +29597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 146.05 90.17 0)
 			(effects
 				(font
@@ -29287,7 +29753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 306.07 220.98 0)
 			(effects
 				(font
@@ -30063,7 +30529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -30200,7 +30666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 146.05 162.56 0)
 			(effects
 				(font
@@ -30571,7 +31037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 171.45 143.51 0)
 			(effects
 				(font
@@ -30802,7 +31268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 133.35 125.73 0)
 			(effects
 				(font
@@ -30870,7 +31336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 146.05 107.95 0)
 			(effects
 				(font
@@ -30938,7 +31404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:TYPE-C-31-M-14"
+		(property "Footprint" "Volpx:Molex_USBC_2169900001"
 			(at 33.02 35.56 0)
 			(effects
 				(font
@@ -31119,7 +31585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 82.55 143.51 0)
 			(effects
 				(font
@@ -31168,7 +31634,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a4db364a-f9b5-47dc-9fda-34310583a040")
 		(property "Reference" "SW14"
@@ -31187,7 +31653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 209.55 90.17 0)
 			(effects
 				(font
@@ -31311,7 +31777,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a5e96809-1552-45fc-b0fa-5f58a13d5b8a")
 		(property "Reference" "SW31"
@@ -31330,7 +31796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 44.45 125.73 0)
 			(effects
 				(font
@@ -31486,7 +31952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 196.85 143.51 0)
 			(effects
 				(font
@@ -31554,7 +32020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 44.45 162.56 0)
 			(effects
 				(font
@@ -31850,7 +32316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 133.35 90.17 0)
 			(effects
 				(font
@@ -31918,7 +32384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 95.25 125.73 0)
 			(effects
 				(font
@@ -32055,7 +32521,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b0370f6b-f092-4dad-a734-1f7c8d04755a")
 		(property "Reference" "SW65"
@@ -32074,7 +32540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 95.25 162.56 0)
 			(effects
 				(font
@@ -32142,7 +32608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 107.95 143.51 0)
 			(effects
 				(font
@@ -32266,7 +32732,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b2df36d0-1181-4132-9a7e-130f8aac7072")
 		(property "Reference" "SW29"
@@ -32285,7 +32751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 209.55 107.95 0)
 			(effects
 				(font
@@ -33061,7 +33527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 196.85 162.56 0)
 			(effects
 				(font
@@ -33129,7 +33595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 95.25 143.51 0)
 			(effects
 				(font
@@ -33331,7 +33797,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bd0d4e92-d02b-49fa-8511-211ebfa7973f")
 		(property "Reference" "SW44"
@@ -33350,7 +33816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 209.55 125.73 0)
 			(effects
 				(font
@@ -34369,6 +34835,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 276.86 269.24 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c91a65f9-523e-4a36-9b0c-ae09535d6197")
+		(property "Reference" "H7"
+			(at 279.4 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 279.4 270.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380"
+			(at 276.86 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 276.86 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keyboard"
+				(path "/036bed95-285c-41d7-ae9e-209431e9628a"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 82.55 130.81 0)
 		(unit 1)
@@ -34394,7 +34924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 82.55 125.73 0)
 			(effects
 				(font
@@ -34761,7 +35291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 281.94 232.41 0)
 			(effects
 				(font
@@ -34829,7 +35359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 120.65 107.95 0)
 			(effects
 				(font
@@ -36019,7 +36549,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dd2cd923-d48c-4e8e-b98a-d50cbad7f585")
 		(property "Reference" "SW81"
@@ -36038,7 +36568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 331.47 242.57 0)
 			(effects
 				(font
@@ -36246,7 +36776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 184.15 162.56 0)
 			(effects
 				(font
@@ -36314,7 +36844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 107.95 125.73 0)
 			(effects
 				(font
@@ -36449,7 +36979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 171.45 162.56 0)
 			(effects
 				(font
@@ -36751,7 +37281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 184.15 90.17 0)
 			(effects
 				(font
@@ -36819,7 +37349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 133.35 162.56 0)
 			(effects
 				(font
@@ -37138,7 +37668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 95.25 107.95 0)
 			(effects
 				(font
@@ -37294,7 +37824,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 69.85 90.17 0)
 			(effects
 				(font
@@ -37525,7 +38055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 57.15 125.73 0)
 			(effects
 				(font
@@ -37662,7 +38192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 44.45 90.17 0)
 			(effects
 				(font
@@ -37795,7 +38325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 209.55 143.51 0)
 			(effects
 				(font
@@ -37919,7 +38449,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ed770c62-c200-4d09-81a5-c20bfa0b6b0c")
 		(property "Reference" "SW67"
@@ -37938,7 +38468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 120.65 162.56 0)
 			(effects
 				(font
@@ -38184,7 +38714,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "eea9368d-32ff-4be5-bdbf-682f2fda15c4")
 		(property "Reference" "SW45"
@@ -38203,7 +38733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 31.75 143.51 0)
 			(effects
 				(font
@@ -38522,7 +39052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 330.2 210.82 0)
 			(effects
 				(font
@@ -38699,13 +39229,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 257.81 264.16 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5c6f7cc-6171-4536-9d2a-8776efc503d8")
+		(property "Reference" "H1"
+			(at 260.35 262.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 260.35 265.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380"
+			(at 257.81 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 257.81 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keyboard"
+				(path "/036bed95-285c-41d7-ae9e-209431e9628a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 31.75 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f67b9ad2-bd61-4800-9c66-f769b54ea3f4")
 		(property "Reference" "SW30"
@@ -38724,7 +39318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Volpx:SW_mechanical_many_v2"
+		(property "Footprint" "Volpx:SW_mechanical_many_v2_MovedCuts"
 			(at 31.75 125.73 0)
 			(effects
 				(font
@@ -39012,6 +39606,70 @@
 			(project "keyboard"
 				(path "/036bed95-285c-41d7-ae9e-209431e9628a"
 					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 257.81 259.08 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8d83251-895b-40e0-9840-45558a7430b3")
+		(property "Reference" "H0"
+			(at 260.35 257.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 260.35 260.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380"
+			(at 257.81 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 257.81 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keyboard"
+				(path "/036bed95-285c-41d7-ae9e-209431e9628a"
+					(reference "H0")
 					(unit 1)
 				)
 			)
