@@ -3,6 +3,7 @@
 15x5 Ortholinear low profile mechanical keyboard.
 
 ![image](docs/PCB_render.png)
+![image](docs/PCB_render_back.png)
 
 - USBC
 - Bluetooth
