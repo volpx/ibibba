@@ -1,4 +1,4 @@
-# GHEIBORD
+# Ibibba
 
 15x5 Ortholinear low profile mechanical keyboard.
 
